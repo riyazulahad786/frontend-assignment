@@ -1,3 +1,21 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 5px; /* Adjust width */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+/* -------------------------------------------------------------above scrolling css */
 .hero_section{
     background-image: url('./Assets/Background.png');
     height: 100vh;
@@ -5,22 +23,11 @@
 .hero_section h1, h6{
     color: white !important;
 }
-/* header */
+/* -----------------------------------header-------------------------- */
 .nav-link{
     color: white !important;
 }
-/* subscription */
-.subscription{
-    background: rgb(88, 87, 87);
-}
-.subscription p,span{
-    color: white;
-}
-.card{
-    background: black !important;
-    width: 200px;
-}
-/* /-------------------navbar------------------------------- */
+
 .navbar-toggler{
     border: none !important;
 }
@@ -52,3 +59,157 @@
     
     border: 1px solid white !important;
   }
+  /* -------------------------subscription---------------------------- */
+.subscription{
+    background: rgb(26, 25, 25);
+}
+.subscription p,span{
+    color: white;
+}
+.card_body{
+    background: rgb(8, 8, 8) !important;   
+}
+.card_body p {
+    font-size: 12px;
+}
+.card_body h6{
+    font-size: 15px;
+}
+.card_box {
+    background-color: #080606 !important; /* Background color */
+   
+    height: 300px;/* Center content horizontally */
+  }
+  
+  .fixed-card {
+    width: 100%; /* Full width of its column */
+    height: 300px; /* Fixed height */
+    /* Ensure the card doesn't change size based on content */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .card-small {
+    width: 90%; /* Adjust width of the smaller card */
+  }
+  .card_month{
+    width: 200px;
+    height: 200px !important;
+  }
+  
+  
+  .card-img-top{
+    height: 60px !important;
+  }
+  .stepper-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10px; /* Add some padding on smaller screens */
+}
+
+.stepper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%; /* Make sure it adapts to container width */
+    max-width: 500px; /* Set a max-width for larger screens */
+}
+
+.stepper-item {
+    position: relative;
+    padding: 18px;
+    background: transparent;
+    border-radius: 5px;
+    z-index: 1; /* Ensure the steps are above the line */
+}
+
+.stepper-number {
+    background: #ccc;
+    color: black;
+    width: 30px; /* Adjust size for smaller screens */
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    left: -40px; /* Adjust positioning for smaller screens */
+    top: 20px;
+    border: 1px solid gray;
+}
+
+.stepper-title {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: white;
+}
+
+.stepper-line {
+    width: 2px;
+    background: #ddd;
+    position: absolute;
+    left: -25px; /* Aligns the line with the middle of the stepper number */
+    top: 35px; /* Adjust this value based on the step height */
+    bottom: 20px; /* Ensures the line goes to the end of the stepper */
+}
+
+.stepper-item.active .stepper-number {
+    background: white;
+}
+
+.stepper-item.active .stepper-title,
+.stepper-item.active .stepper-description {
+    color: white;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .stepper-container {
+        padding: 0 5px;
+    }
+
+    .stepper-number {
+        width: 25px;
+        height: 25px;
+        left: -30px;
+    }
+
+    .stepper-title {
+        font-size: 12px;
+    }
+
+    .stepper-line {
+        left: -20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stepper-number {
+        width: 20px;
+        height: 20px;
+        left: -10px;
+    }
+
+    .stepper-title {
+        font-size: 10px;
+    }
+
+    .stepper-line {
+        left: 0px;
+    }
+}
+.cards{
+    background: rgb(32, 32, 32);
+    height: 200px;
+    padding: 12px 18px;
+}
+.small_card{
+    width: 150px !important;
+}
+.card-title{
+    font-size: 15px;
+    color: rgb(228, 202, 137) !important;
+    font-weight: 900;
+}
