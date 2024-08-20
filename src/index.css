@@ -1,8 +1,19 @@
+@font-face {
+    font-family: 'CustomFontName';
+    src: url('./Fonts/Fontspring-DEMO-altivo-black.otf') format('woff2'),
+         url('./Fonts/Fontspring-DEMO-altivo-blackitalic.otf') format('woff'),
+         url('./Fonts//Fontspring-DEMO-altivo-bolditalic.otf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+body{
+    font-family: "CustomFontName";
+}
 html {
     scroll-behavior: smooth;
   }
   ::-webkit-scrollbar {
-    width: 5px; /* Adjust width */
+    width: 5px; 
   }
 
   ::-webkit-scrollbar-thumb {
@@ -78,9 +89,9 @@ html {
     font-size: 15px;
 }
 .card_box {
-    background-color: #080606 !important; /* Background color */
+    background-color: #080606 !important;
    
-    height: 300px;/* Center content horizontally */
+    height: 300px;
   }
   
   .fixed-card {
@@ -230,3 +241,11 @@ html {
         height: 100vh;
     }
 }
+/* Add this CSS code to your stylesheet */
+@media (max-width: 767.98px) {
+    .navbar-nav {
+      background-color: gray;
+      padding: 20px 20px;
+    }
+  }
+  
