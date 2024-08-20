@@ -76,7 +76,7 @@ function Subscription() {
           </div>
 
           <div className="col-lg-6">
-            <div className="row py-2">
+            <div className="row py-1">
               <div className="col-lg-4">
                 <div className="cards shadow ">
                   <img
