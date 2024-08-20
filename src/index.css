@@ -224,8 +224,11 @@ html {
 }
 .cards{
     background: rgb(32, 32, 32);
-    height: 200px;
-    padding: 12px 18px;
+    height: 210px;
+    width: 160px;
+   
+    padding: 19px 18px;
+    margin: 12px 0px;
 
 }
 

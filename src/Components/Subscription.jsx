@@ -75,9 +75,9 @@ function Subscription() {
             </div>
           </div>
 
-          <div className="col-lg-6">
-            <div className="row py-1">
-              <div className="col-lg-4">
+          <div className="col-lg-6 d-flex flex-wrap">
+            <div className="row ">
+              <div className="col-lg-4 col-6">
                 <div className="cards shadow ">
                   <img
                     src="/creditPerMonth.svg"
@@ -92,7 +92,7 @@ function Subscription() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-6">
                 <div className="cards shadow ">
                   <img
                     src="/rolloverOfUnusedCredits.svg"
@@ -107,7 +107,7 @@ function Subscription() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-6">
                 <div className="cards small_card shadow ">
                   <img
                     src="/MMRPerks.svg"
@@ -122,9 +122,7 @@ function Subscription() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row py-1">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-6">
                 <div className="cards small_card shadow ">
                   <img
                     src="/100Flexible.svg"
@@ -139,7 +137,7 @@ function Subscription() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-6">
                 <div className="cards shadow ">
                   <img
                     src="/discountOnFoodAndBeverages.svg"
@@ -154,7 +152,7 @@ function Subscription() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-6">
                 <div className="cards shadow ">
                   <img
                     src="/convenienceFee.svg"
@@ -169,6 +167,7 @@ function Subscription() {
                 </div>
               </div>
             </div>
+          
           </div>
         </div>
       </div>
