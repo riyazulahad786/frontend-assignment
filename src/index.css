@@ -1,0 +1,54 @@
+.hero_section{
+    background-image: url('./Assets/Background.png');
+    height: 100vh;
+}
+.hero_section h1, h6{
+    color: white !important;
+}
+/* header */
+.nav-link{
+    color: white !important;
+}
+/* subscription */
+.subscription{
+    background: rgb(88, 87, 87);
+}
+.subscription p,span{
+    color: white;
+}
+.card{
+    background: black !important;
+    width: 200px;
+}
+/* /-------------------navbar------------------------------- */
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.top-fixed {
+    position: fixed  !important;
+    top: 0  !important;
+    left: 0  !important;
+    width: 100%;
+    z-index: 1000; 
+  }
+  .USER{
+    border-radius: 30px !important;
+    border-color: white !important;
+  }
+  .user_icon{
+    height: 22px;
+    color: white;
+  }
+  .user_btn{
+    border-radius: 30px  !important;
+    color: white;
+    
+    border: 1px solid white !important;
+  }
