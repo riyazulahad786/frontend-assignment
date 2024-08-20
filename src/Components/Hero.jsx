@@ -9,7 +9,7 @@ function Hero() {
        
         <div className=''>
             <h1>My Subscriptions</h1>
-            <h6>Your go-to Movie Membership program</h6>
+            <h6 className='text-center'>Your go-to Movie Membership program</h6>
         </div>
     </div>
     </>

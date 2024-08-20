@@ -3,7 +3,7 @@ import {} from "react";
 function Subscription() {
   return (
     <div className="py-5 subscription">
-      <div className="container">
+      <div className="container py-5">
         <div className="row">
           <div className="col-lg-6">
             <div className="section_1">

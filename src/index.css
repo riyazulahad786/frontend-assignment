@@ -1,8 +1,6 @@
 html {
     scroll-behavior: smooth;
   }
-
-
   ::-webkit-scrollbar {
     width: 5px; /* Adjust width */
   }
@@ -19,9 +17,13 @@ html {
 .hero_section{
     background-image: url('./Assets/Background.png');
     height: 100vh;
+    background-repeat: no-repeat;
+    
 }
 .hero_section h1, h6{
     color: white !important;
+    font-size: 4rem;
+    font-weight: 900;
 }
 /* -----------------------------------header-------------------------- */
 .nav-link{
@@ -94,9 +96,12 @@ html {
   .card_month{
     width: 200px;
     height: 200px !important;
+    
   }
   
-  
+  .cards{
+    border-radius: 30px;
+  }
   .card-img-top{
     height: 60px !important;
   }
@@ -166,6 +171,10 @@ html {
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
+   
+    .hero_section h1{
+        font-size: 2rem;
+    }
     .stepper-container {
         padding: 0 5px;
     }
@@ -186,6 +195,9 @@ html {
 }
 
 @media (max-width: 480px) {
+    .cards{
+        margin: 12px;
+    }
     .stepper-number {
         width: 20px;
         height: 20px;
@@ -204,12 +216,12 @@ html {
     background: rgb(32, 32, 32);
     height: 200px;
     padding: 12px 18px;
+
 }
-.small_card{
-    width: 150px !important;
-}
+
 .card-title{
     font-size: 15px;
     color: rgb(228, 202, 137) !important;
     font-weight: 900;
 }
+
