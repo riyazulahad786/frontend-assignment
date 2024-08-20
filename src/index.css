@@ -16,7 +16,7 @@ html {
 /* -------------------------------------------------------------above scrolling css */
 .hero_section{
     background-image: url('./Assets/Background.png');
-    height: 100vh;
+    height: 40vh;
     background-repeat: no-repeat;
     
 }
@@ -225,3 +225,8 @@ html {
     font-weight: 900;
 }
 
+@media (min-width:1200px) {
+    .hero_section{
+        height: 100vh;
+    }
+}
